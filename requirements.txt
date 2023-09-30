@@ -9,6 +9,7 @@ matplotlib
 openai
 tiktoken
 faiss-cpu
+dotenv
 #faiss-gpu
 
 gradio
