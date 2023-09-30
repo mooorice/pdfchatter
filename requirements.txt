@@ -1,15 +1,6 @@
-textract
-transformers
 langchain
-IPython
-ipywidgets
-pypdf
-pandas
-matplotlib
 openai
-tiktoken
-faiss-cpu
-dotenv
+python-dotenv
 #faiss-gpu
 
 gradio
