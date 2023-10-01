@@ -18,7 +18,7 @@ load_dotenv()
 openai.api_key  = os.environ['OPENAI_API_KEY']
 
 # PDF path
-pdf_path = "./pdf/Dupre_economy_as_science.pdf"
+pdf_path = "./pdf/Currie_traffic_infant_ezpass.pdf"
 
 # Setup LLM
 llm = OpenAI(temperature=0, top_p=0.1, n=1)
@@ -30,7 +30,7 @@ qdrant = Qdrant.from_documents(
     docs,
     embeddings,
     location=":memory:",  # Local mode with in-memory storage only
-    collection_name="Dupre",
+    collection_name="Currie_traffic_infant_ezpass",
 )
 
 # Setup system prompt
