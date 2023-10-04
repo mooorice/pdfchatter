@@ -18,7 +18,7 @@ load_dotenv()
 openai.api_key  = os.environ['OPENAI_API_KEY']
 
 # PDF path
-pdf_path = "./pdf/Currie_traffic_infant_ezpass.pdf"
+pdf_path = "./pdf/Hochschild_2017_Teamplayer.pdf"
 
 # Setup LLM
 llm = OpenAI(temperature=0, top_p=0.1, n=1)

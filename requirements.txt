@@ -5,3 +5,10 @@ python-dotenv
 
 gradio
 qdrant-client
+
+pdf2image
+pytesseract
+fitz
+
+# sudo apt install tesseract-ocr
+# sudo apt install poppler-utils
